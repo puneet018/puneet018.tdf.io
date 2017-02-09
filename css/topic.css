@@ -1,0 +1,85 @@
+#topsearch{
+	    width: 85px;
+    position: absolute;
+    margin-left: 11%;
+    /* margin-top: -20px; */
+    top: 3%;
+}
+
+#searchTop{
+    width: 240px;
+    height: 35px;
+    border-radius: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: verdana;
+    color: #156dac;
+    font-size: 15px;
+    position: absolute;
+    margin-left: -135px;
+    top: 6%;
+}
+
+.tblsty{
+	background-color: rgba(249, 249, 255, 0.65);
+}
+
+.tblstych{
+	    background-color: rgba(230, 230, 248, 0.48);
+}
+
+#searchPage{
+	display: none;
+}
+
+#nwtpc{
+	width: 45%;
+	text-align: left;
+	font-size: 20px;
+	color: #f9f9ff;
+	border: 1px solid;
+    padding: 10px;
+    background-color: #0D1219;
+    box-shadow: 0px 0px 30px;
+    border-radius: 15px;
+}
+#newtopic{
+	position: absolute;
+    margin-left: 255px;
+    margin-top: -30px;
+}
+
+.nwtpc{
+	text-align: right;
+}
+
+
+.r_topic{
+	padding: 5px 10px;
+    font-size: 20px;
+    color: #156dac;
+	border-radius: 25px;
+    margin-left: 20px;
+	cursor: pointer;
+}
+
+#n_topic{
+	height: 30px;
+    width: 290px;
+    border: 1px solid #999;
+    font-size: 18px;
+    color: #156dac;
+    padding: 7px 10px;
+    margin-left: 38px;
+    border-radius: 5px;
+}
+
+#a_topic{
+	padding: 5px 10px;
+    font-size: 20px;
+    color: #156dac;
+	border-radius: 25px;
+    margin-left: 20px;
+	cursor: pointer;
+
+}

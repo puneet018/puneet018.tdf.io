@@ -1,0 +1,54 @@
+#imgsub{
+    width: 315px;
+    height: 150px;
+    position: absolute;
+    margin-left: 35px;
+    box-shadow: 2px 2px 40px #FFF;
+}
+
+
+
+#imglog{
+    width: 310px;
+    height: 150px;
+    position: absolute;
+    margin-left: -310px;
+    box-shadow: 2px 2px 40px #FFF;	
+}
+
+
+
+#imgreg{
+	width: 336px;
+    height: 150px;
+    position: absolute;
+    margin-left: -676px;
+    box-shadow: 2px 2px 40px #FFF;	
+}
+
+#subtxt{
+    margin-left: 35px;
+    font-size: 19px;
+}
+
+#logintxt{
+    margin-left: -310px;
+    font-size: 20px;
+}
+#registertxt{
+    margin-left: -676px;
+	font-size: 21px;
+}
+
+.txt{
+	position: absolute;  
+	margin-top: 136px;
+    /* border: 1px solid; */
+   
+}
+
+#r_box{
+    margin-top: 25%;
+	height: 1645px;
+    background-color: #f5fdfd;
+}

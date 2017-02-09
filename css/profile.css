@@ -1,0 +1,99 @@
+.sp{
+color: #fcefff;
+cursor: pointer;
+
+}
+.edit_nodisplay{
+	display: none;
+}
+
+#edit{
+	position: absolute;
+    width: 25px;
+    margin-left: 220px;
+
+}
+
+#save{
+	position: absolute;
+    width: 25px;
+    margin-left: 220px;
+
+}
+
+#cancel{
+	position: absolute;
+    width: 25px;
+    margin-left: 250px;
+
+}
+
+#wait_unm{
+	display:none;
+}
+
+.label_cell{
+	width: 35%;
+	text-align: right;
+	color: #e6e6f8;
+	font-size:20px;
+}
+
+.colon_cell{
+	width:10%;
+	text-align: center;
+	color:#e6e6f8;
+	font-size: 20px;
+}
+
+.input_cell{
+	width: 45%;
+	text-align: left;
+	font-size:20px;
+	color:#f9f9ff;
+	
+}
+
+.input_field{
+	border: 1px solid #999;
+	font-size: 18px;
+	color: #156dac;
+	padding: 3px 7px;
+	border-radius: 5px;
+}
+#buttonbox{
+	text-align:center;
+}
+#buttonbox input{
+	padding: 5px 10px;
+	font-size: 20px;
+	color: #156dac;
+
+}
+
+
+#nq{
+	left: 72%;
+    /* top: -6%; */
+    position: absolute;
+	
+}
+#nq a{
+	padding: 10px;
+	border: 1px solid #95afe9;
+	background-color:#102450;
+}
+#rp{
+	text-align:right;
+}
+#rp a{
+	border: 1px solid #95afe9;
+	background-color:#102450;
+}
+
+#tbl a{
+	
+
+}
+
+	

@@ -1,0 +1,212 @@
+#ptbl{
+	/*border: 1px solid #999;*/
+	margin: 50px auto;
+	width: 50%;
+	background:transparent;
+	border-radius: 5px;
+	/*box-shadow: 2px 2px 15px #156dac;*/
+}
+
+#dob{
+	margin-top: -9px;
+    position: absolute;
+    padding: 3px;
+    border-radius: 8px;
+    padding-left: 7px;
+    COLOR: #1660A0;
+    /* border: 2px solid; */
+    font-family: verdana;
+    /* font-weight: 200; */
+}
+
+#country{
+	margin-top: -9px;
+    position: absolute;
+    padding: 3px;
+    border-radius: 8px;
+    padding-left: 7px;
+    COLOR: #1660A0;
+    /* border: 2px solid; */
+    font-family: verdana;
+    /* font-weight: 200; */
+}
+
+#interest{
+    position: relative;
+    padding: 3px;
+    border-radius: 8px;
+    padding-left: 7px;
+    COLOR: #1660A0;
+    /* border: 2px solid; */
+    font-family: verdana;
+    /* font-weight: 200; */
+    font-size: 16px;
+}
+
+#profession{
+	margin-top: -9px;
+    position: absolute;
+    padding: 3px;
+    border-radius: 8px;
+    padding-left: 7px;
+    COLOR: #1660A0;
+    /* border: 2px solid; */
+    font-family: verdana;
+    /* font-weight: 200; */
+}
+
+#acon{
+	margin-top: -13px;
+    position: absolute;
+}
+
+.sp{
+	color: #fcefff;
+	cursor: pointer;
+    position: absolute;
+}
+
+.edit{
+
+}
+
+.edit_nodisplay{
+	display: none;
+}
+
+
+#wait_unm{
+	display: none;
+}
+
+.editdob{
+	position: absolute;
+    width: 25px;
+    margin-left: -8px;
+
+}
+
+.savedob{
+	position: absolute;
+    width: 25px;
+    margin-left: 10px;
+
+}
+
+.canceldob{
+	position: absolute;
+    width: 25px;
+    margin-left: 49px;
+    margin-top: -25px;
+}
+
+
+.editcon{
+	position: absolute;
+    width: 25px;
+    margin-left: -5px;
+
+}
+
+.savecon{
+	position: absolute;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.cancelcon{
+	position: absolute;
+    width: 25px;
+    margin-left: 49px;
+    margin-top: -25px;
+}
+
+.editprof{
+	position: absolute;
+    width: 25px;
+    margin-left: -5px;
+
+}
+
+.saveprof{
+	position: absolute;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.cancelprof{
+	position: absolute;
+    width: 25px;
+    margin-left: 49px;
+    margin-top: -25px;
+}
+.editgen{
+	position: absolute;
+    width: 25px;
+    margin-left: -5px;
+
+}
+
+.savegen{
+	position: absolute;
+    width: 25px;
+    margin-left: 155px;
+	 margin-top: 10px;
+}
+
+
+.editint{
+	position: absolute;
+    width: 25px;
+    margin-left: -5px;
+
+}
+
+.saveint{
+	position: absolute;
+    width: 25px;
+    margin-left: 10px;
+}
+
+.cancelint{
+	position: absolute;
+    width: 25px;
+    margin-left: 49px;
+    margin-top: -25px;
+}
+
+
+.wait{
+	display:none;
+}
+
+
+.label_cell{
+	width: 35%;
+	text-align: right;
+	color: #e6e6f8;
+	font-size:20px;
+}
+
+.colon_cell{
+	width:10%;
+	text-align: center;
+	color:#e6e6f8;
+	font-size: 20px;
+}
+
+.input_cell{
+	width: 45%;
+	text-align: left;
+	font-size:20px;
+	color:#f9f9ff;
+	
+}
+
+.input_field{
+	border: 1px solid #999;
+	font-size: 18px;
+	color: #156dac;
+	padding: 3px 7px;
+	border-radius: 5px;
+}

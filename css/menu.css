@@ -1,0 +1,23 @@
+#menu_box a{
+	text-decoration: none;
+	color: #156dac;
+	border: 1px solid #156dac;
+	padding: 4px 8px;
+	margin-left: 8px;
+}
+
+#menu_box{
+	padding: 15px;
+    background-color: black;
+    text-align: center;
+    /* box-shadow: 2px 2px 34px #1467a3; */
+}	
+#menu_box a:link, #menu_box a:visited{
+	    color: #1467a3;
+    /* background-color: #f5fdfd; */
+    padding: 13px;
+}
+#menu_box a:hover, #menu_box a:active{
+	color: #f5fdfd;
+	background-color: #1467a3;
+}

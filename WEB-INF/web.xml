@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+   <listener>
+    	<listener-class>listeners.AppListener</listener-class>
+  </listener>
+ 
+ <servlet>
+	<servlet-name>shhom000</servlet-name>
+	<servlet-class>servlets.ShowHomeServlet</servlet-class>  
+ </servlet>
+ <servlet-mapping>
+	<servlet-name>shhom000</servlet-name>
+	<url-pattern>/home.do</url-pattern> 
+ </servlet-mapping>
+   
+  <servlet>
+	<servlet-name>shreg001</servlet-name>
+	<servlet-class>servlets.ShowRegisterServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>shreg001</servlet-name>
+	<url-pattern>/showregister.do</url-pattern> 
+  </servlet-mapping>
+  
+  
+  <servlet>
+	<servlet-name>reg002</servlet-name>
+	<servlet-class>servlets.RegisterServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>reg002</servlet-name>
+	<url-pattern>/register.do</url-pattern> 
+  </servlet-mapping>
+
+
+
+  <servlet>
+	<servlet-name>shlog003</servlet-name>
+	<servlet-class>servlets.ShowLoginServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+	<servlet-name>shlog003</servlet-name>
+	<url-pattern>/showlogin.do</url-pattern>  
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>log004</servlet-name>
+	<servlet-class>servlets.LoginServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>log004</servlet-name>
+	<url-pattern>/login.do</url-pattern> 
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>act005</servlet-name>
+	<servlet-class>servlets.ActivationServlet</servlet-class>	
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>act005</servlet-name>
+  <url-pattern>/activate.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>subj006</servlet-name>
+	<servlet-class>servlets.SubjectServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>subj006</servlet-name>
+	<url-pattern>/subject.do</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+	<servlet-name>nprofile007</servlet-name>
+	<servlet-class>servlets.NextProfileServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>nprofile007</servlet-name>
+	<url-pattern>/nextprofile.do</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>topic008</servlet-name>
+	<servlet-class>servlets.ShowTopicServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>topic008</servlet-name>
+	<url-pattern>/topic.do</url-pattern>
+</servlet-mapping>
+
+
+
+  <welcome-file-list>
+	<welcome-file>home.jsp</welcome-file>
+  </welcome-file-list>
+
+ <servlet>
+	<servlet-name>svunm009</servlet-name>
+	<servlet-class>servlets.SaveUserNameServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>svunm009</servlet-name>
+	<url-pattern>/save_user_name.do</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>post010</servlet-name>
+	<servlet-class>servlets.PostServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>post010</servlet-name>
+	<url-pattern>/post.do</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+	<servlet-name>logout011</servlet-name>
+	<servlet-class>servlets.LogOutServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>logout011</servlet-name>
+	<url-pattern>/showlogout.do</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+	<servlet-name>shwprofile012</servlet-name>
+	<servlet-class>servlets.ShowProfileServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>shwprofile012</servlet-name>
+	<url-pattern>/showprofile.do</url-pattern> 
+  </servlet-mapping>
+
+  
+<servlet>
+	<servlet-name>shwpstqstn013</servlet-name>
+	<servlet-class>servlets.PostQuestionServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>shwpstqstn013</servlet-name>
+	<url-pattern>/post_question.do</url-pattern> 
+  </servlet-mapping>
+  <servlet>
+	<servlet-name>like014</servlet-name>
+	<servlet-class>servlets.ShowLikeDislikeServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>like014</servlet-name>
+	<url-pattern>/likedislike.do</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>pstdtl015</servlet-name>
+	<servlet-class>servlets.ShowPostDetailServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>pstdtl015</servlet-name>
+	<url-pattern>/postdetail.do</url-pattern> 
+  </servlet-mapping>
+
+
+ <servlet>
+	<servlet-name>replyl016</servlet-name>
+	<servlet-class>servlets.ReplyServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>replyl016</servlet-name>
+	<url-pattern>/post_reply.do</url-pattern> 
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>adsubl017</servlet-name>
+	<servlet-class>servlets.AddSubjectServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>adsubl017</servlet-name>
+	<url-pattern>/add_subject.do</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>adtopl018</servlet-name>
+	<servlet-class>servlets.AddTopicServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>adtopl018</servlet-name>
+	<url-pattern>/add_topic.do</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>delpostl019</servlet-name>
+	<servlet-class>servlets.DeletePostServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>delpostl019</servlet-name>
+	<url-pattern>/del_post.do</url-pattern> 
+  </servlet-mapping>
+
+  
+  <servlet>
+	<servlet-name>saveDobl020</servlet-name>
+	<servlet-class>servlets.SaveDobServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>saveDobl020</servlet-name>
+	<url-pattern>/save_dob.do</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>saveGenl021</servlet-name>
+	<servlet-class>servlets.SaveGenderServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>saveGenl021</servlet-name>
+	<url-pattern>/save_gender.do</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>saveConl022</servlet-name>
+	<servlet-class>servlets.SaveCountryServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>saveConl022</servlet-name>
+	<url-pattern>/save_con.do</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>saveIntl023</servlet-name>
+	<servlet-class>servlets.SaveInterestServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>saveIntl023</servlet-name>
+	<url-pattern>/save_interest.do</url-pattern> 
+  </servlet-mapping>
+
+  <servlet>
+	<servlet-name>saveProfl024</servlet-name>
+	<servlet-class>servlets.SaveProfessionServlet</servlet-class>  
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>saveProfl024</servlet-name>
+	<url-pattern>/save_prof.do</url-pattern> 
+  </servlet-mapping>
+  
+<servlet>
+	<servlet-name>removeSubl025</servlet-name>
+	<servlet-class>servlets.RemoveSubjectServlet</servlet-class>  
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>removeSubl025</servlet-name>
+	<url-pattern>/remove_subject.do</url-pattern> 
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>userProfl026</servlet-name>
+	<servlet-class>servlets.UserProfileServlet</servlet-class>  
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>userProfl026</servlet-name>
+	<url-pattern>/view_profile.do</url-pattern> 
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>userTypel027</servlet-name>
+	<servlet-class>servlets.UserTypeServlet</servlet-class>  
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>userTypel027</servlet-name>
+	<url-pattern>/change_type.do</url-pattern> 
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>deleteTopicl028</servlet-name>
+	<servlet-class>servlets.DeleteTopicServlet</servlet-class>  
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>deleteTopicl028</servlet-name>
+	<url-pattern>/delete_topic.do</url-pattern> 
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>selectTopicl029</servlet-name>
+	<servlet-class>servlets.SelectTopicServlet</servlet-class>  
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>selectTopicl029</servlet-name>
+	<url-pattern>/select_topic.do</url-pattern> 
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>searchSubjectl030</servlet-name>
+	<servlet-class>servlets.SearchSubjectServlet</servlet-class>  
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>searchSubjectl030</servlet-name>
+	<url-pattern>/search_subject.do</url-pattern> 
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>searchTopicl031</servlet-name>
+	<servlet-class>servlets.SearchTopicServlet</servlet-class>  
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>searchTopicl031</servlet-name>
+	<url-pattern>/search_topic.do</url-pattern> 
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>searchPostl032</servlet-name>
+	<servlet-class>servlets.SearchPostServlet</servlet-class>  
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>searchPostl032</servlet-name>
+	<url-pattern>/search_post.do</url-pattern> 
+</servlet-mapping>
+
+</web-app>
